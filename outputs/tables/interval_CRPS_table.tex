@@ -1,0 +1,109 @@
+\begin{center}
+\tabcolsep 0.315in
+\renewcommand\arraystretch{0.98}
+\begin{small}
+\begin{longtable}{@{}llrrrr@{}}
+\caption{\small Median forecast accuracy results: CRPS computed for the three levels of the grouped and hierarchical structures. The best method is highlighted in bold.}\label{tab:crps_median} \\
+\toprule
+Hierarchy & Series & CoDA & OLS & WLS & MinT \\
+\midrule
+\endfirsthead
+\toprule
+Hierarchy & Series & CoDA & OLS & WLS & MinT \\
+\midrule
+\endhead
+\hline \multicolumn{6}{r}{{Continued on next page}} \\
+\endfoot
+\endlastfoot
+Grouped & \multicolumn{5}{l}{\underline{Top-level:}}\\
+& Total & \textbf{184.80} & 875.33 & 810.92 & 248.30 \\
+\cmidrule{2-6}
+& \multicolumn{5}{l}{\underline{Middle-level:}}\\
+& Cause 1 - Total & \textbf{22.26} & 42.83 & 28.22 & 32.25 \\
+& Cause 2 - Total & \textbf{62.54} & 79.65 & 98.86 & 67.25 \\
+& Cause 3 - Total & 118.35 & 395.53 & 365.15 & \textbf{48.58} \\
+& Cause 4 - Total & 207.67 & 366.26 & 159.59 & \textbf{103.68} \\
+& Cause 5 - Total & 15.53 & \textbf{14.99} & 23.19 & 17.18 \\
+& Cause 6 - Total & 54.02 & 34.39 & 80.02 & \textbf{32.97} \\
+& Cause 7 - Total & 70.30 & 64.90 & 104.46 & \textbf{44.92} \\
+& Cause 8 - Total & \textbf{48.03} & 68.70 & 51.06 & 59.28 \\
+& Total - Males & 321.87 & \textbf{186.98} & 534.83 & 1496.13 \\
+& Total - Females & \textbf{65.94} & 602.17 & 213.16 & 451.73 \\
+\cmidrule{2-6}
+& \multicolumn{5}{l}{\underline{Bottom-level:}}\\
+& Cause 1 - Males & \textbf{28.07} & 48.48 & 36.57 & 41.64 \\
+& Cause 1 - Females & 15.51 & 19.48 & \textbf{14.60} & 21.84 \\
+& Cause 2 - Males & 130.27 & \textbf{30.95} & 58.40 & 267.13 \\
+& Cause 2 - Females & 13.06 & 110.28 & 20.54 & \textbf{11.25} \\
+& Cause 3 - Males & 143.04 & \textbf{97.50} & 154.80 & 435.78 \\
+& Cause 3 - Females & \textbf{95.17} & 186.33 & 153.16 & 287.80 \\
+& Cause 4 - Males & 308.53 & \textbf{127.86} & 167.52 & 318.89 \\
+& Cause 4 - Females & 56.07 & 115.98 & \textbf{30.10} & 56.45 \\
+& Cause 5 - Males & 27.49 & 21.33 & \textbf{9.62} & 22.50 \\
+& Cause 5 - Females & \textbf{3.82} & 25.00 & 6.60 & 19.54 \\
+& Cause 6 - Males & 71.15 & 39.20 & \textbf{34.70} & 93.85 \\
+& Cause 6 - Females & 18.86 & 39.92 & \textbf{9.51} & 41.20 \\
+& Cause 7 - Males & 100.34 & \textbf{21.34} & 32.67 & 77.72 \\
+& Cause 7 - Females & 25.29 & 36.22 & \textbf{12.23} & 34.29 \\
+& Cause 8 - Males & \textbf{62.11} & 100.21 & 86.10 & 100.99 \\
+& Cause 8 - Females & 42.34 & 48.71 & 43.12 & \textbf{40.76} \\
+\midrule
+Sex & \multicolumn{5}{l}{\underline{Top-level:}}\\
+$\downarrow$  Total & 184.80 & 923.62 & 868.27 & \textbf{184.46} \\
+\cmidrule{2-6}
+Cause & \multicolumn{5}{l}{\underline{Middle-level:}}\\
+& Total - Males & 321.87 & \textbf{189.62} & 491.60 & 1184.20 \\
+& Total - Females & \textbf{65.94} & 551.06 & 190.52 & 351.14 \\
+\cmidrule{2-6}
+& \multicolumn{5}{l}{\underline{Bottom-level:}}\\
+& Cause 1 - Males & \textbf{28.07} & 55.75 & 30.99 & 42.70 \\
+& Cause 1 - Females & 15.51 & 21.85 & \textbf{12.87} & 21.51 \\
+& Cause 2 - Males & 130.27 & \textbf{33.29} & 47.11 & 116.88 \\
+& Cause 2 - Females & 13.06 & 117.13 & 17.45 & \textbf{10.32} \\
+& Cause 3 - Males & 143.04 & \textbf{39.95} & 78.53 & 78.36 \\
+& Cause 3 - Females & 95.17 & 89.93 & \textbf{40.60} & 48.40 \\
+& Cause 4 - Males & 308.53 & \textbf{151.80} & 469.34 & 598.98 \\
+& Cause 4 - Females & \textbf{56.07} & 107.50 & 153.49 & 199.99 \\
+& Cause 5 - Males & 27.49 & 55.22 & \textbf{18.72} & 26.78 \\
+& Cause 5 - Females & \textbf{3.82} & 30.92 & 11.17 & 15.64 \\
+& Cause 6 - Males & 71.15 & 90.84 & \textbf{44.86} & 76.98 \\
+& Cause 6 - Females & 18.86 & 53.84 & \textbf{8.92} & 35.60 \\
+& Cause 7 - Males & 100.34 & \textbf{42.50} & 42.55 & 93.94 \\
+& Cause 7 - Females & 25.29 & 59.53 & \textbf{8.93} & 32.09 \\
+& Cause 8 - Males & \textbf{62.11} & 108.85 & 90.01 & 77.35 \\
+& Cause 8 - Females & \textbf{42.34} & 50.42 & 48.02 & 48.50 \\
+\midrule
+Cause & \multicolumn{5}{l}{\underline{Top-level:}}\\
+$\downarrow$  Total & 184.80 & 432.85 & 485.29 & \textbf{167.72} \\
+\cmidrule{2-6}
+Sex & \multicolumn{5}{l}{\underline{Middle-level:}}\\
+& Cause 1 - Total & \textbf{22.26} & 49.41 & 22.67 & 33.49 \\
+& Cause 2 - Total & 62.54 & \textbf{30.62} & 80.79 & 46.93 \\
+& Cause 3 - Total & 118.35 & 235.10 & 332.17 & \textbf{50.93} \\
+& Cause 4 - Total & 207.67 & 286.90 & 53.06 & \textbf{44.45} \\
+& Cause 5 - Total & 15.53 & 41.73 & 13.27 & \textbf{11.17} \\
+& Cause 6 - Total & 54.02 & 78.22 & 66.70 & \textbf{31.30} \\
+& Cause 7 - Total & 70.30 & \textbf{16.73} & 77.91 & 37.84 \\
+& Cause 8 - Total & 48.03 & 79.84 & 54.34 & \textbf{40.98} \\
+\cmidrule{2-6}
+& \multicolumn{5}{l}{\underline{Bottom-level:}}\\
+& Cause 1 - Males & \textbf{28.07} & 58.33 & 34.38 & 44.39 \\
+& Cause 1 - Females & 15.51 & 21.71 & \textbf{13.59} & 21.84 \\
+& Cause 2 - Males & 130.27 & \textbf{44.21} & 65.66 & 246.52 \\
+& Cause 2 - Females & \textbf{13.06} & 118.07 & 25.22 & 17.28 \\
+& Cause 3 - Males & 143.04 & \textbf{128.06} & 139.30 & 407.61 \\
+& Cause 3 - Females & \textbf{95.17} & 229.11 & 199.73 & 303.62 \\
+& Cause 4 - Males & 308.53 & \textbf{97.76} & 160.21 & 118.09 \\
+& Cause 4 - Females & \textbf{56.07} & 135.11 & 146.28 & 163.32 \\
+& Cause 5 - Males & 27.49 & 56.45 & \textbf{11.22} & 39.07 \\
+& Cause 5 - Females & \textbf{3.82} & 30.60 & 11.19 & 15.87 \\
+& Cause 6 - Males & 71.15 & 87.01 & \textbf{40.76} & 74.41 \\
+& Cause 6 - Females & 18.86 & 52.72 & \textbf{7.25} & 42.05 \\
+& Cause 7 - Males & 100.34 & \textbf{33.54} & 34.21 & 70.99 \\
+& Cause 7 - Females & 25.29 & 52.40 & \textbf{7.50} & 35.76 \\
+& Cause 8 - Males & \textbf{62.11} & 110.53 & 86.93 & 85.34 \\
+& Cause 8 - Females & 42.34 & 50.27 & 46.91 & \textbf{34.12} \\
+\bottomrule
+\end{longtable}
+\end{small}
+\end{center}
